@@ -1,0 +1,29 @@
+.page-not-found {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+}
+
+.number {
+  font-size: 4rem;
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.go-to-home {
+    margin-top: 15px;
+    padding: 15px;
+    border: 3px solid rgb(97, 230, 97);
+    border-radius: 15%;
+    font-size: 1rem;
+    font-weight: 600;
+}
