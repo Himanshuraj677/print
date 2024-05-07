@@ -1,4 +1,51 @@
 .nav-bar {
-    height: 40px;
+    height: 60px;
+    padding: 0 10px;
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav-dropdown {
+    width: 12px;
+}
+
+.nav-product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-product-link {
+    position: relative;
+}
+
+.nav-product-link:before {
+    content: url('../svg/dropdown.svg');
+    position: absolute;
+    width: 10px;
+    top: 2px;
+    right: -12px;
+  }
+
+.nav-profile {
+    display: inline-block;
+}
+
+.div-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
 }
